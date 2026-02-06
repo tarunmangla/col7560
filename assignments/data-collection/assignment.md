@@ -2,6 +2,8 @@
 
 **Goal:** Understand  *data collection aspects of networking using active measurements*, with a focus on **application classification and application Quality of Experience (QoE) monitoring**. You will generate traffic, collect packet-level traces (pcap), and measure application-level QoE metrics under **controlled and diverse network conditions**.
 
+**You will do this assignment in groups of 2.** 
+
 ---
 
 **Background:** As discussed in class, there are two broad paradigms for network data collection:
