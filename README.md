@@ -10,7 +10,7 @@
 | 3 | Performance inference | [NetMicroscope](https://dl.acm.org/doi/pdf/10.1145/3366704); [Estimating WebRTC Video QoE Metrics Without Using Application Headers](https://dl.acm.org/doi/abs/10.1145/3618257.3624828) |
 | 4 | Security | [Kitsune](https://arxiv.org/abs/1802.09089); [Detecting Credential Spearphishing in Enterprise Settings](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-ho.pdf) |
 | 5 | Resource management | [TCP Aurora](https://arxiv.org/abs/1810.03259); [Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf) |
-| 6 | Programmable data plane | [P4 Paper](https://dl.acm.org/doi/pdf/10.1145/2656877.2656890); [SplitDT](https://arxiv.org/html/2509.00397v1); Other technologies: [eBPF](https://ebpf.io/), [DPDK](https://www.dpdk.org/) |
+| 6 | Programmable data plane | [P4 Paper](https://dl.acm.org/doi/pdf/10.1145/2656877.2656890); ~[SplitDT](https://arxiv.org/html/2509.00397v1)~; [Do Switches Dream of ML](https://www.cl.cam.ac.uk/~nz247/publications/xiong2019dream.pdf); Other technologies: [eBPF](https://ebpf.io/), [DPDK](https://www.dpdk.org/) |
 | 7 | Representation Learning | [nPrint](https://arxiv.org/pdf/2008.02695) |
 | 8 | Representation Learning – Foundation Models | [ET-BERT](https://dl.acm.org/doi/abs/10.1145/3485447.3512217); [NetFound](https://arxiv.org/abs/2310.17025); [Demystifying Network Foundation Models](https://arxiv.org/pdf/2509.23089) |
 | 9 | Evaluation and reproducibility | [Puffer](https://puffer.stanford.edu/) |
