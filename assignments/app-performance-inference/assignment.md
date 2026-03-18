@@ -79,23 +79,12 @@ Before submitting, verify that:
 
 | Component | Weight | Description |
 |-----------|--------|-------------|
-| **Demo** | 50% | Present your approach, explain your feature engineering choices, and demonstrate your code |
-| **Leaderboard Performance** | 50% | Relative performance compared to other submissions on the hidden test set |
+| **Demo** | 60% | Present your approach, explain your feature engineering choices, and demonstrate your code |
+| **Leaderboard Performance** | 40% | Relative performance compared to other submissions on the hidden test set |
 
 ### Leaderboard Scoring
 
-For the leaderboard component, your submission is scored based on prediction accuracy:
-
-| Metric | Weight |
-|--------|--------|
-| `avg_resolution` | 25% |
-| `rebuffering_ratio` | 30% |
-| `startup_latency` | 25% |
-| `bitrate_switches_per_second` | 20% |
-
-- Lower RMSE = Higher Score
-- Maximum leaderboard score is 100 points
-- Your final leaderboard grade will be based on your **relative ranking** among all submissions
+For the leaderboard component, your submission is scored based on prediction accuracy.
 
 **Note**: Each submission is evaluated on a **random subset** of test sessions. This means your score may vary slightly between submissions even with the same code.
 
@@ -136,29 +125,7 @@ student_data/
 └── train_sessions.txt      # List of training session IDs
 ```
 
-## Feature Engineering Suggestions
 
-Different features may be more relevant for different QoE metrics:
-
-### For `avg_resolution`
-- Overall throughput (higher throughput enables higher resolution)
-- Sustained bandwidth percentiles
-- Packet size statistics
-
-### For `rebuffering_ratio`
-- Idle periods and gaps in packet arrivals
-- Throughput drops and variability
-- Low bandwidth duration
-
-### For `startup_latency`
-- Time to first large packet burst
-- Bytes received in first few seconds
-- Initial throughput ramp-up
-
-### For `bitrate_switches_per_second`
-- Throughput coefficient of variation
-- Frequency of bandwidth changes
-- Network stability metrics
 
 ## Tips
 
